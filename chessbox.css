@@ -1,0 +1,62 @@
+*{box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container-1{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    width: 480px;
+    height: 483px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+   
+}
+.rows{
+    display: flex;
+}
+.child{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1 .child:nth-child(odd),
+.row2 .child:nth-child(even),
+.row3 .child:nth-child(odd),
+.row4 .child:nth-child(even),
+.row5 .child:nth-child(odd),
+.row6 .child:nth-child(even),
+.row7 .child:nth-child(odd),
+.row8 .child:nth-child(even){
+    background-color:white;
+}
+
+.row1 .child:nth-child(odd),
+.row2 .child:nth-child(even),
+.row3 .child:nth-child(odd),
+.row4 .child:nth-child(even),
+.row5 .child:nth-child(odd),
+.row6 .child:nth-child(even),
+.row7 .child:nth-child(odd),
+.row8 .child:nth-child(even){
+    background-color:rgba(46, 45, 45, 0.526);
+}
+.child{
+    font-size: 36px;
+}
+h1{
+    position: relative;
+    top:30px;
+}
